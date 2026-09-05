@@ -1,0 +1,13 @@
+Digito01 = float(input("Digite o primeiro número:"))
+Digito02 = float(input("digite o segundo número:"))
+operacao = input("Digite a operação:\n+ Soma\n- Subtração\n\ Divisão\n* Multiplicação")
+if operacao == "+":
+    print (f"O Resultado é {Digito01 + Digito02}")
+elif operacao == "-":
+    print(f"O Resultado é {Digito01 - Digito02}")
+elif operacao == "/":
+    print(f"O Resultado é {Digito01 / Digito02}")
+elif operacao == "*":
+    print(f"O Resultado é {Digito01 * Digito02}")
+else:
+    print ("error 404")
